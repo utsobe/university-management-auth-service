@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/succeses/.b0469cd919c5cb42006288bad7d1e2b5cebc4451-audit.json",
+    "files": [
+        {
+            "date": 1698118502068,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/succeses/phu-2023-10-24-11-success.log",
+            "hash": "0d7274473dcceb5c5029a7e6bcd7433f9b0251f0180e16536981dd9774fafb96"
+        },
+        {
+            "date": 1698127780141,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/succeses/phu-2023-10-24-14-success.log",
+            "hash": "7d43c4837b0843b86f52863ebe6b88d0483797b41e4e37a60a58c9616e936e68"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/.81bcae18243e5f281dda9e852d144fc63c46de0d-audit.json",
+    "files": [
+        {
+            "date": 1698118502070,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-11-error.log",
+            "hash": "4c135e89265aa8cb7ccdc3b8986d85b93de4f1009bfe6749a8b62f9b1ca392c1"
+        },
+        {
+            "date": 1698127780143,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-14-error.log",
+            "hash": "98e1694219c7d1fbb3c1eb1e5c3ae4d9743f4d296635dbe680fb6e51628a9848"
+        }
+    ],
+    "hashType": "sha256"
+}
