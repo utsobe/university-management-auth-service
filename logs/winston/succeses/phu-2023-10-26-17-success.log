@@ -1,0 +1,36 @@
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:20:42.638Z'
+}
+{
+  message: 'Application listening on port 3000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:20:42.648Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:26:26.180Z'
+}
+{
+  message: 'Application listening on port 3000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:26:26.190Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:34:41.592Z'
+}
+{
+  message: 'Application listening on port 3000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-10-26T09:34:41.600Z'
+}

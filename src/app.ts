@@ -1,36 +1,25 @@
-import cors from 'cors'
-import express, { Application, Request, Response } from 'express'
-import usersRouter from './app/modules/users/users.route'
+import cors from 'cors';
+import express, { Application } from 'express';
+import { UserRoutes } from './app/modules/user/user.route';
+import globalErrorHandler from './middlewares/globalErrorHandler';
 
-const app: Application = express()
+const app: Application = express();
 
-app.use(cors())
+app.use(cors());
 
 //parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Application Routes
-app.use('/api/v1/users/', usersRouter)
-
-class ApiError extends Error {
-  statusCode: number
-
-  constructor(statusCode: number, message: string | undefined, stack = '') {
-    super(message)
-    this.statusCode = statusCode
-    if (stack) {
-      this.stack = stack
-    } else {
-      Error.captureStackTrace(this, this.constructor)
-    }
-  }
-}
+app.use('/api/v1/users/', UserRoutes);
 
 // Testing
-app.get('/', (req: Request, res: Response) => {
-  // res.send('Working successfully!')
-  throw new ApiError(404, 'Ore baba Error ')
-})
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing Error Logger')
+// })
 
-export default app
+// Global error handler
+app.use(globalErrorHandler);
+
+export default app;
