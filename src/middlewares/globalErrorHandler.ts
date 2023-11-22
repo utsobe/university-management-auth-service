@@ -5,7 +5,7 @@ import config from '../config';
 import ApiError from '../errors/ApiError';
 import handleValidationError from '../errors/handleValidationError';
 import handleZodError from '../errors/handleZodError';
-import { IGenericErrorMessage } from '../interfaces/error';
+import { IGenericerrorMessages } from '../interfaces/error';
 import { errorlogger } from '../shared/logger';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
@@ -16,22 +16,22 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
 
   let statusCode = 500;
   let message = 'Something went wrong!';
-  let errorMessages: IGenericErrorMessage[] = [];
+  let errorMessagess: IGenericerrorMessages[] = [];
 
   if (error?.name === 'ValidationError') {
     const simplifiedError = handleValidationError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
-    errorMessages = simplifiedError.errorMessage;
+    errorMessagess = simplifiedError.errorMessages;
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
-    errorMessages = simplifiedError.errorMessage;
+    errorMessagess = simplifiedError.errorMessages;
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
     message = error?.message;
-    errorMessages = error?.message
+    errorMessagess = error?.message
       ? [
           {
             path: '',
@@ -41,7 +41,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
       : [];
   } else if (error instanceof Error) {
     message = error?.message;
-    errorMessages = error?.message
+    errorMessagess = error?.message
       ? [
           {
             path: '',
@@ -54,7 +54,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   res.status(statusCode).json({
     success: false,
     message,
-    errorMessages,
+    errorMessagess,
     stacks: config.env !== 'production' ? error?.stack : undefined,
   });
 

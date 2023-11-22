@@ -1,85 +1,20 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/.81bcae18243e5f281dda9e852d144fc63c46de0d-audit.json",
-  "files": [
-    {
-      "date": 1698118502070,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-11-error.log",
-      "hash": "4c135e89265aa8cb7ccdc3b8986d85b93de4f1009bfe6749a8b62f9b1ca392c1"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1698127780143,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-14-error.log",
-      "hash": "98e1694219c7d1fbb3c1eb1e5c3ae4d9743f4d296635dbe680fb6e51628a9848"
-    },
-    {
-      "date": 1698132069026,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-15-error.log",
-      "hash": "2182c7e32fbf44e947cd50483d56bd89ae8d4ff28b8c11bd8ef9fd4ee61b5a28"
-    },
-    {
-      "date": 1698134596090,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-24-16-error.log",
-      "hash": "5c862382440ff9f544d3a56fa60eb6fea8c87eaa4908716ddf5f05e2c1dbfc21"
-    },
-    {
-      "date": 1698204355857,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-25-11-error.log",
-      "hash": "b54889eb8164b6d31520cbf310f0676600e0334234672a19e4c46aecd74726a6"
-    },
-    {
-      "date": 1698206563354,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-25-12-error.log",
-      "hash": "08a48ec266a4d11f27063f3c63f2444ebf3ec5637064b68966392a37b144a0c3"
-    },
-    {
-      "date": 1698229164651,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-25-18-error.log",
-      "hash": "567aa572ee680d93917ce3b0b7f898bf7b6b21ec98c28e41b6647572c0b6285d"
-    },
-    {
-      "date": 1698312039977,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-26-17-error.log",
-      "hash": "9b7346444c0dec04c073c40c248f3a6002bdfb94a8063be62a5b745baf628520"
-    },
-    {
-      "date": 1698374916512,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-27-10-error.log",
-      "hash": "a81ea5dd5bd58dd3bae3c85bb31826840aac1e8f0fb3d1581967cf84875fc5e7"
-    },
-    {
-      "date": 1698375729255,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-27-11-error.log",
-      "hash": "a2b3302431016d2d7f3293979574393d8dc9298c36d43a15cef4569213e91224"
-    },
-    {
-      "date": 1698379727128,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-27-12-error.log",
-      "hash": "23b27d8841633469bb5ec4af47766fc8be164b65cdc78cff32b70d93f14b11d5"
-    },
-    {
-      "date": 1698397534682,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-27-17-error.log",
-      "hash": "8b5e287f127578ebe390ee7a1c41d8d41bf0815738f2c268ee83dbf40a61adeb"
-    },
-    {
-      "date": 1698400978795,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-27-18-error.log",
-      "hash": "90148e6c1e9e0a4a95b675f7ee040286eab1acf7c7cbae1441527f8ae7201329"
-    },
-    {
-      "date": 1698497331828,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-28-20-error.log",
-      "hash": "6a790406c2791dc164f80edc98504c35a74a925b245c71c0cfc0dcfe64b1118b"
-    },
-    {
-      "date": 1698579443283,
-      "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-10-29-19-error.log",
-      "hash": "e92644bf9c287fa9e593b6a782b2c41e7ff5fdd8745a713ef954d56f29e69827"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/.81bcae18243e5f281dda9e852d144fc63c46de0d-audit.json",
+    "files": [
+        {
+            "date": 1700401123547,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-11-19-21-error.log",
+            "hash": "f8907e73877657e26f92e977017a30247dc2c3d4f201f47723c87282383af091"
+        },
+        {
+            "date": 1700402464680,
+            "name": "/Users/admin/Documents/web2.0/Mission-3-nosql/university-management-auth-service/logs/winston/errors/phu-2023-11-19-22-error.log",
+            "hash": "464ced3d3762bd718ed636eebb18df4fa68ffd6ece111327cb19c7bf0b14ebe7"
+        }
+    ],
+    "hashType": "sha256"
 }
